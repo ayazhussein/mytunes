@@ -1,0 +1,18 @@
+html {
+    position: relative;
+    min-height:100%;
+}
+body {
+    margin-bottom: 60px;
+}
+
+li {
+    cursor: pointer;
+}
+
+.ng-valid[required] {
+    border: 2px solid #42a948;
+}
+.ng-invalid {
+    border: 2px solid #a94442;
+}
